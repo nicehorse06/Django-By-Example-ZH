@@ -116,7 +116,7 @@ def post_share(request, post_id):
 使用Django发送email非常简单。首先，你需要有一个本地的SMTP服务或者通过在你项目的settings.py文件中添加以下设置去定义一个外部SMTP服务器的配置：
 
 * EMAIL_HOST: SMTP服务地址。默认本地。
-* EMAIL_POSR: SMATP服务端口，默认25。
+* EMAIL_PORT: SMATP服务端口，默认25。
 * EMAIL_HOST_USER: SMTP服务的用户名。
 * EMAIL_HOST_PASSWORD: SMTP服务的密码。
 * EMAIL_USE_TLS: 是否使用TLS加密连接。
